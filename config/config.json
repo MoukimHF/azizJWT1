@@ -1,0 +1,19 @@
+{
+    "development": {
+      "transactionType": "IMMEDIATE",
+      "storage":"aziz-restapi.db",
+      "dialect": "sqlite",
+      "operatorsAliases": false
+    },
+    "test": {
+      "storage":"test.db",
+      "dialect": "sqlite",
+      "operatorsAliases": false
+    },
+    "production": {
+      "storage":"aziz-restapi.db",
+      "dialect": "sqlite",
+      "operatorsAliases": false
+    }
+  }
+  
